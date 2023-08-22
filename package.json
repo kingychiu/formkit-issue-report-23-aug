@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "inspect": "node --expose-gc --inspect --max-old-space-size=512 .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@formkit/icons": "^0.18.3",
+    "@formkit/nuxt": "^0.18.3",
+    "@formkit/themes": "^0.18.3",
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {}
+}
